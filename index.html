@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AwayFromKeyboard</title>
+    <!--Font Awesome:-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--Font for Logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Montserrat:wght@300&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icon-->
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <!--CSS:-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--
+        Name: Selma Copra
+        Course: CS412 [2]
+        Assignment: Project 6 - Forum Website for Gaming
+        Due Date: 07.01.2022
+    -->
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navigation hide" id="navigation">
+          <ul class="nav-list">
+            <span class="close-icon" onclick="showIconBar()">
+              <i class="fa fa-times"></i>
+            </span>
+            <li class="nav-item logo-font">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-item logo-font">
+              <a href="html/posts.html">Latest Posts</a>
+            </li>
+
+            <li class="nav-item logo-font">
+              <a href="#registration">Join Us</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="brand logo-font">AwayFromKeyboard</div>
+      </div>
+      <!--Search-->
+      <div class="search-box">
+        <div>
+          <select name="" id="">
+            <option value="everything">Everything</option>
+            <option value="titles">Titles</option>
+            <option value="descriptions">Descriptions</option>
+          </select>
+          <input type="text" name="q" id="search-forum" placeholder="Search" />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="subforum">
+        <div class="subforum-title">
+          <!--Title-->
+          <h1>General Categories</h1>
+        </div>
+        <div class="subforum-row">
+          <!--Row-->
+          <div class="subforum-icon subforum-column center">
+            <i class="fa fa-medal"></i>
+          </div>
+          <div class="subforum-description subforum-column">
+            <!--Description-->
+            <h1><a href="html/topic1.html">VALORANT Competitive</a></h1>
+            <p>
+              Blend your style and experience on a global, competitive stage.
+              You have 13 rounds to attack and defend your side using sharp
+              gunplay and tactical abilities. And, with one life per-round,
+              you'll need to think faster than your opponent if you want to
+              survive.
+            </p>
+          </div>
+          <div class="subforum-stats subforum-column center">
+            <!--Stats-->
+            <span>663 Posts | 22 Topics</span>
+          </div>
+          <div class="subforum-info subforum-column">
+            <!--Info-->
+            <a href="">Last post</a> by <a href="">SicK_CS</a>
+            <br />
+            on <small>29 Dec 2021</small>
+          </div>
+        </div>
+        <hr class="subforum-divider" />
+        <div class="subforum-row">
+          <!--Row-->
+          <div class="subforum-icon subforum-column center">
+            <i class="fab fa-superpowers"></i>
+          </div>
+          <div class="subforum-description subforum-column">
+            <!--Description-->
+            <h1><a href="html/topic2.html">Agents</a></h1>
+            <p>
+              CREATIVITY IS YOUR GREATEST WEAPON. More than guns and bullets,
+              you’ll choose an Agent armed with adaptive, swift, and lethal
+              abilities that create opportunities to let your gunplay shine. No
+              two Agents play alike, just as no two highlight reels will look
+              the same.
+            </p>
+          </div>
+          <div class="subforum-stats subforum-column center">
+            <!--Stats-->
+            <span>324 Posts | 15 Topics</span>
+          </div>
+          <div class="subforum-info subforum-column">
+            <!--Info-->
+            <a href="">Last post</a> by
+            <a href="html/userprofile.html">ss3lm4</a>
+            <br />
+            on <small>22 Dec 2021</small>
+          </div>
+        </div>
+        <div class="subforum-row">
+          <!--Row-->
+          <div class="subforum-icon subforum-column center">
+            <i class="far fa-map"></i>
+          </div>
+          <div class="subforum-description subforum-column">
+            <!--Description-->
+            <h1><a href="html/topic3.html">Maps</a></h1>
+            <p>
+              Each map is a playground to showcase your creative thinking.
+              Purpose-built for team strategies, spectacular plays, and clutch
+              moments. Make the play others will imitate for years to come.
+            </p>
+          </div>
+          <div class="subforum-stats subforum-column center">
+            <!--Stats-->
+            <span>441 Posts | 6 Topics</span>
+          </div>
+          <div class="subforum-info subforum-column">
+            <!--Info-->
+            <a href="">Last post</a> by <a href="">nAts_ss</a>
+            <br />
+            on <small>03 Jan 2022</small>
+          </div>
+        </div>
+        <div class="subforum-row">
+          <!--Row-->
+          <div class="subforum-icon subforum-column center">
+            <i class="far fa-bookmark"></i>
+          </div>
+          <div class="subforum-description subforum-column">
+            <!--Description-->
+            <h1><a href="html/topic4.html">Agent Lineups</a></h1>
+            <p>
+              Learning utility lineups in Valorant is now just a few clicks
+              away, as this category has cataloged all crucial lineups for each
+              agent. You can share your own lineups, or try ones made by your
+              competitors. Either way, sharing is caring!
+            </p>
+          </div>
+          <div class="subforum-stats subforum-column center">
+            <!--Stats-->
+            <span>178 Posts | 14 Topics</span>
+          </div>
+          <div class="subforum-info subforum-column">
+            <!--Info-->
+            <a href="">Last post</a> by <a href="">Asunaa</a>
+            <br />
+            on <small>02 Jan 2022</small>
+          </div>
+        </div>
+      </div>
+
+      <!--Forum info-->
+      <div class="forum-info">
+        <div class="chart">
+          AwayFromKeyboard - Stats <i class="fa fa-bar-chart"></i>
+        </div>
+        <div>
+          <span>
+            <u>1,606</u> Posts in <u>57</u> topics by <u>45,845</u> users</span
+          >
+          <br />
+          <span
+            >Latest Post: <b><a href="#">Post Name</a></b> on 15 Dec 2021 by
+            <a href="#">mr_robot</a></span
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="login-signup" id="registration">
+      <form action="contact-us" method="POST">
+        <span>Email: &nbsp; </span>
+        <input type="text" name="user_email" placeholder="Email adress" />
+        <br />
+        <span>Username:</span>
+        <input type="text" name="user_name" placeholder="Username" />
+        <br />
+        <span>Password:</span>
+        <input type="password" name="user_pass" placeholder="Password" />
+        <br />
+        <input type="submit" name="register" value="Register" />
+      </form>
+    </div>
+
+    <footer>
+      <span>&copy; &nbsp; AwayFromKeyboard | All rights reserved. </span>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

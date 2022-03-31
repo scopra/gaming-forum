@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AwayFromKeyboard</title>
+    <!--Font Awesome:-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--Font for Logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Montserrat:wght@300&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icon-->
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <!--CSS:-->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navigation hide" id="navigation">
+          <ul class="nav-list">
+            <span class="close-icon" onclick="showIconBar()">
+              <i class="fa fa-times"></i>
+            </span>
+            <li class="nav-item logo-font">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="nav-item logo-font">
+              <a href="posts.html">Latest Posts</a>
+            </li>
+            <!--<li class="nav-item logo-font">
+              <a href="detail.html">Details</a>
+            </li>-->
+            <li class="nav-item logo-font">
+              <a href="../index.html">Join Us</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="brand logo-font">AwayFromKeyboard</div>
+      </div>
+      <!--Search-->
+      <div class="search-box">
+        <div>
+          <select name="" id="">
+            <option value="everything">Everything</option>
+            <option value="titles">Titles</option>
+            <option value="descriptions">Descriptions</option>
+          </select>
+          <input type="text" name="q" id="" placeholder="Search" />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <!--Navigation-->
+      <div class="navigate">
+        <span
+          ><a href="../index.html">AwayFromKeyboard - Forums</a> >>
+          <a href="#">Agents</a></span
+        >
+      </div>
+
+      <div class="posts-table">
+        <div class="table-head">
+          <div class="status">Status</div>
+          <div class="subjects">Topic</div>
+          <div class="replies">Replies/Views</div>
+          <div class="last-reply">Last Reply</div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-frown-open"> </i></div>
+          <div class="subjects">
+            <a href="#">Is Yoru considered a good agent after the last patch?</a
+            ><br />
+            <span
+              >Started by <b><a href="#">weeb0</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            0 replies <br />
+            2 views
+          </div>
+          <div class="last-reply">No replies yet.</div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-fire"> </i></div>
+          <div class="subjects">
+            <a href="#">petition to remove astra from the game</a><br />
+            <span
+              >Started by <b><a href="#">wherethetreesmeetthefreeway</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">sunny41</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-rocket"> </i></div>
+          <div class="subjects">
+            <a href="#">who's your favourite agent, i'm curious.</a><br />
+            <span
+              >Started by <b><a href="#">reactionoverflow</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            225 replies <br />
+            4512 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">loolapalooza</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-fire"></i></div>
+          <div class="subjects">
+            <a href="#">anyone remember when viper and skye werent the meta</a
+            ><br />
+            <span
+              >Started by <b><a href="#">nani741</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">shadow__</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-fire"> </i></div>
+          <div class="subjects">
+            <a href="#">WHO'S YOUR MOST USED AGENT AND WHY IS IT JETT?</a><br />
+            <span
+              >Started by <b><a href="#">jettmain123</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">viperbadonkadonks</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-book"> </i></div>
+          <div class="subjects">
+            <a href="#">Is Yoru considered a good agent after the last patch?</a
+            ><br />
+            <span
+              >Started by <b><a href="#">ss3lm4</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">volde74mort</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-lock"> </i></div>
+          <div class="subjects">
+            <a href="#">insta lock reynas suck.</a><br />
+            <span
+              >Started by <b><a href="#">VALOR_741</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">user124512</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-rocket"> </i></div>
+          <div class="subjects">
+            <a href="#">who is the best beginner agent? (not sage plz)</a><br />
+            <span
+              >Started by <b><a href="#">ss3lm4</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">user124512</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-fire"> </i></div>
+          <div class="subjects">
+            <a href="#">Why Does Nobody Use Phoenix Anymore</a><br />
+            <span
+              >Started by <b><a href="#">ss3lm4</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">user124512</a></b>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="status"><i class="fa fa-lock"> </i></div>
+          <div class="subjects">
+            <a href="#">Tenz can actually make yoru playable</a><br />
+            <span
+              >Started by <b><a href="#">tenzfan56789</a></b
+              >.
+            </span>
+          </div>
+          <div class="replies">
+            2 replies <br />
+            125 views
+          </div>
+          <div class="last-reply">
+            Oct 12 2021 <br />
+            By <b><a href="#">user124512</a></b>
+          </div>
+        </div>
+      </div>
+
+      <!--Links and stuff-->
+      <div class="pagination">
+        pages: <a href="#">1</a><a href="#">2</a><a href="#">3</a
+        ><a href="#">4</a>
+      </div>
+    </div>
+
+    <!--Status icons-->
+    <div class="note">
+      <span> <i class="fa fa-frown-open"></i>&nbsp; 0 Engagement Topic </span>
+      <br />
+      <span> <i class="fa fa-book"></i>&nbsp; Low Engagement Topic </span><br />
+      <span> <i class="fa fa-fire"></i>&nbsp; Popular Topic </span><br />
+      <span> <i class="fa fa-rocket"></i>&nbsp; High Engagement Topic </span
+      ><br />
+      <span> <i class="fa fa-lock"></i>&nbsp; Closed Topic </span>
+    </div>
+
+    <footer>
+      <span>&copy; &nbsp; AwayFromKeyboard | All rights reserved. </span>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

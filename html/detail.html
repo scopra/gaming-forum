@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AwayFromKeyboard</title>
+    <!--Font Awesome:-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--Font for Logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Montserrat:wght@300&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icon-->
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <!--CSS:-->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar logo-font">
+        <div class="navigation hide" id="navigation">
+          <ul class="nav-list">
+            <span class="close-icon" onclick="showIconBar()">
+              <i class="fa fa-times"></i>
+            </span>
+            <li class="nav-item logo-font">
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="nav-item logo-font">
+              <a href="posts.html">Latest Posts</a>
+            </li>
+            <li class="nav-item logo-font">
+              <a href="../index.html">Join Us</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="brand logo-font">AwayFromKeyboard</div>
+      </div>
+      <!--Search-->
+      <div class="search-box">
+        <div>
+          <select name="" id="">
+            <option value="everything">Everything</option>
+            <option value="titles">Titles</option>
+            <option value="descriptions">Descriptions</option>
+          </select>
+          <input type="text" name="q" id="" placeholder="Search" />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <!--Navigation-->
+      <div class="navigate">
+        <span
+          ><a href="../index.html">AwayFromKeyboard - Forums</a> >>
+          <a href="topic1.html">VALORANT Competitive</a> >>
+          <a href="#">How did you improve “your game sense”?</a></span
+        >
+      </div>
+
+      <div class="topic-container">
+        <div class="head">
+          <div class="authors">Author</div>
+          <div class="content">
+            Topic: How did you improve “your game sense”? (Read 212 Times)
+          </div>
+        </div>
+        <div class="body">
+          <div class="authors">
+            <div class="username"><a href="userprofile.html">ss3lm4</a></div>
+            <div>Sentinel</div>
+            <img
+              src="https://kissanimegirl.com/wp-content/uploads/2021/04/Snip20210629_64.png"
+              alt=""
+            />
+            <div>Posts: <u>45</u></div>
+            <div>Points: <u>4523</u></div>
+          </div>
+          <div class="content">
+            Its a phrase used a-lot among Valorant players and would help a-lot
+            of beginners and hard-stuck individuals. Thanks
+            <br />
+            <br />
+            <br />
+
+            <br />
+            <br />
+            <hr />
+            Regards ss3lm4
+            <div class="comment">
+              <button onclick="showComment()">Comment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Comment input-->
+      <div class="comment-area hide" id="comment-area">
+        <textarea
+          name="comment"
+          id=""
+          placeholder="What do you have to say?"
+        ></textarea>
+        <input type="submit" value="submit" />
+      </div>
+
+      <!--Show comments-->
+      <div class="comments-container">
+        <div class="head">
+          <div class="authors">Author</div>
+          <div class="content">Comments</div>
+        </div>
+        <div class="body">
+          <div class="authors">
+            <div class="AnotherUser"><a href="#">ilovecats123</a></div>
+            <div>Initiator</div>
+            <img
+              src="https://i1.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1"
+              alt=""
+            />
+            <div>Posts: <u>16</u></div>
+            <div>Points: <u>351</u></div>
+          </div>
+          <div class="content">
+            you have to actively play the game. not just queue up and see what
+            happens but take engagements, experiment with pushes, take risks,
+            etc. a lot of the time you get held back by fear and self imposed
+            restrictions you have to loosen up and be open minded. if prod was
+            bronze, you’d understand why but he’s not and it’s because he has
+            great mechanics combined with not being bound or restricted.
+            <br />
+            <div class="comment">
+              <button onclick="showReply()">Reply</button>
+            </div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="authors">
+            <div class="AnotherUser"><a href="#">jettmain123</a></div>
+            <div>Duelist</div>
+            <img src="https://pbs.twimg.com/media/EbAn5VgXgAAosR3.jpg" alt="" />
+            <div>Posts: <u>126</u></div>
+            <div>Points: <u>21635</u></div>
+          </div>
+          <div class="content">
+            Short answer, play more <br />
+            Long answer, the more you put yourself in situations you get more
+            experience, gamesense is just that. If you know what you can expect
+            you developed good gamesense<br />
+            <br />
+            Nothing else....
+            <br />
+            <div class="comment">
+              <button onclick="showReply()">Reply</button>
+            </div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="authors">
+            <div class="AnotherUser"><a href="#">fracture741</a></div>
+            <div>Initiator</div>
+            <img
+              src="https://legionofart.com/uploads/mydiscordpfp_105597.jpg"
+              alt=""
+            />
+            <div>Posts: <u>76</u></div>
+            <div>Points: <u>7241</u></div>
+          </div>
+          <div class="content">
+            Watch pros play your agent. Watch how they begin the round and how
+            they react to things that happen on the map and on their screen.
+            Don't focus on two things: <br />
+            1) their aim, <br />
+            2) their team or enemy team <br />
+            Just watch their responses to every thing that happens. Then think
+            about why they do the stuff they do.
+            <br />
+            <div class="comment">
+              <button onclick="showReply()">Reply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Reply input-->
+      <div class="comment-area hide" id="reply-area">
+        <textarea name="comment" id="" placeholder="Your reply"></textarea>
+        <input type="submit" value="submit" />
+      </div>
+    </div>
+
+    <footer>
+      <span>&copy; &nbsp; AwayFromKeyboard | All rights reserved. </span>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

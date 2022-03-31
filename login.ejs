@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-body">
+          <% if (messages.success) { %>
+              <p class="alert alert-success m2-4 mb-2"><%- messages.success %></p>
+          <% } %>  
+ 
+          <h2>Contact Me</h2>
+ 
+          <form action="contact-us" method="POST">
+            
+            <div class="form-group"> <!--First Name-->
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control col-lg-9" id="f_name" aria-describedby="emailHelp" placeholder="Enter first name" name="f_name">
+            </div>
+            <!--Last Name-->
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control col-lg-9" id="l_name" aria-describedby="emailHelp" placeholder="Enter last name" name="l_name">
+            </div>
+            <!--Phone Number-->
+            <div class="form-group">
+              <label for="mobileNumber">Mobile</label>
+              <input type="text" class="form-control col-lg-9" id="mobileNum" aria-describedby="emailHelp" placeholder="Enter Mobile Number" name="l_name">
+            </div>
+            <!--Email-->
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control col-lg-9" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email">
+            </div>        
+            <!--Message-->
+            <div class="form-group">
+              <label for="exampleInputEmail1">Message</label>
+              <textarea name="message" class="form-control col-lg-9"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+  </div>
+  </body>
+</html>
